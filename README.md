@@ -62,7 +62,25 @@ The following two images are screenshots of the output of the code and show the 
 ![Refactored Code 2018](https://user-images.githubusercontent.com/87828174/132926704-fcf23781-b4f2-484d-b4c5-85242b49a471.png)
 
 ### Analysis of the results
+#### 2017
+Looking at the 2017 screenshot one can see that all stocks except **TERP** performed well and had an increase in value of price by the end of 2017. **TERP** decreased in value by 7.2%. **RUN** had the smallest increase of 5.5% while **DQ** had the largest increase of 199.4%. Looking at the volume amounts we can see which stock options were traded the most. **SPWR** was traded the most in the year and had a total daily volume of 782,187,000. The stock traded the least amount was **DQ** with total daily volume equalling 35,796,200. As **DQ** was traded the least with the highest increase, it was a volatile stock. Overall the stocks performed well in the year 2017 as compared to 2018. Those with higher stock trades in 2017 compared to 2018 were:
+* AY
+* CSIQ
+* FSLR
+* JKS
+* SPWR
 
+#### 2018
+Other than two stocks: **ENPH** and **RUN**, all stocks decreased in price by the end of 2018. **RUN** had the greatest increase of 84.0% while it had the smallest increase the previous year. Therefore RUN performed much better in 2018. **ENPH** with the second highest increase in value also had the highest volume i.e was traded the most out of all the stocks. It had a total daily volume of 607,473,500. **DQ**, this year performed badly compared to 2017. It had the largest fall in value of 62.6%. **TERP** fell in value again in 2018 similar to 2017. **VSLR** decreased the least amount compared to other stocks with a 3.5% drop in price. **AY** was traded the least amount with a total daily volume of 83,079,900. **ENPH** and **RUN** were the only two stocks that had an increase in price both years. Those with higher stock trades in 2018 compared to 2017 were:
+* DQ
+* ENPH
+* HASI
+* RUN
+* SEDG
+* TERP
+* VSLR
+
+## Summary
 
 
 time elapsed comparisons
