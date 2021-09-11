@@ -82,6 +82,13 @@ Other than two stocks: **ENPH** and **RUN**, all stocks decreased in price by th
 
 ## Summary
 
+### Refactoring of code in general
+#### Advantages
+#### Disadvantages
+
+### Refactoring of VBA script for this assignment
+#### Advantages
+#### Disadvantages
 
 time elapsed comparisons
 
