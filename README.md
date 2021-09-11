@@ -81,14 +81,26 @@ Other than two stocks: **ENPH** and **RUN**, all stocks decreased in price by th
 * VSLR
 
 ## Summary
-
+The original code was refactored to decrease the time taken to perform the analysis. 
 ### Refactoring of code in general
+Code Refactoring is a way of restructuring and optimizing existing code without changing its behavior. It is a way to improve the code quality. https://www.c-sharpcorner.com/article/pros-and-cons-of-code-refactoring/.
 #### Advantages
+Code Refactoring makes the code more flexible and by this the capability of code increases. It is not restricted to certain situations and can be applied more freely. After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain or adapt. Bad patterns and "code smells" are removed which enhances the perfomance of the code. It can also simplify complex methods which are too long. Refactoring improves the design of the software therefore making it easier to understand. It helps finding bugs and faster programming. 
 #### Disadvantages
-
+It is time consuming and lengthy so if working on a deadline it is not practical. It is also expensive to refactor code in some situations. It may introduce bugs to the code.
 ### Refactoring of VBA script for this assignment
-#### Advantages
-#### Disadvantages
+For this assignment we were asked to refactor the code. This was done by changing the format of how the code collected and stored values for volume, starting price and ending price. This was done by making these into arrays which held the respective values for each stock ticker index from 0 to 11 i.e 12 stock indexes. These arrays were filled with the required data according to the same index the stock tickers ran over. The result was outputted after the inner loop over the rows and outer loop ran over the stock ticker index. In the original code, these arrays were variables which stored values during the loop of all the rows to calculate volume and prices according to which stock ticker index they were at. The code outputted these variables within the loop over all the stock ticker indexes. Having these variables as arrays allows the code to read the code and store the information in one go without having to loop over an index and output the data and then repeating the same process till the last stock ticker index. Below are the run times of the refactored code:
 
-time elapsed comparisons
+<img width="260" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/87828174/132932176-4d8f8490-dd02-42e8-af51-cd25051fe973.png">
+<img width="261" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/87828174/132932177-4376a688-487a-4c92-a0b7-a7eaedfbfada.png">
+
+Below are the run times of the original code.
+
+<img width="259" alt="OriginalCodeTimelapse2017" src="https://user-images.githubusercontent.com/87828174/132932214-154ed06e-d262-4c3a-b6e1-e47899caf48c.png">
+<img width="258" alt="OriginalCodeTimeLapse2018" src="https://user-images.githubusercontent.com/87828174/132932215-7f0ab30b-9ea9-48ea-80d2-1fb761e93285.png">
+
+#### Advantages
+The code is easier and clearer to understand and can be adapted to different situations much easier. As seen in the screenshots above, it was faster in running the performance analysis having a shorter time elapsed than the original code. The array system allows us to run over as many rows of data in any data set all the while setting specific values of volume and prices w.r.t the stock ticker index at that moment.
+#### Disadvantages
+It took time to refactor the code and mistakes were made which kept slowing down the process. The only other drawback is that it is effort consuming.
 
