@@ -100,7 +100,7 @@ Below are the run times of the original code.
 <img width="258" alt="OriginalCodeTimeLapse2018" src="https://user-images.githubusercontent.com/87828174/132932215-7f0ab30b-9ea9-48ea-80d2-1fb761e93285.png">
 
 #### Advantages
-The code is easier and clearer to understand and can be adapted to different situations much easier. As seen in the screenshots above, it was faster in running the performance analysis having a shorter time elapsed than the original code. The array system allows us to run over as many rows of data in any data set all the while setting specific values of volume and prices w.r.t the stock ticker index at that moment.
+The code is easier and clearer to understand and can be adapted to different situations much easier. As seen in the screenshots above, it was faster in running the performance analysis having a shorter time elapsed than the original code. The array system allows us to run over as many rows of data in any data set all the while setting specific values of volume and prices w.r.t the stock ticker index at that moment in a more compact way. It allows the values to be stored and outputted outside of the stock ticker index (outer) loop instead of solely during the loop.
 #### Disadvantages
 It took time to refactor the code and mistakes were made which kept slowing down the process. The only other drawback is that it is effort consuming.
 
