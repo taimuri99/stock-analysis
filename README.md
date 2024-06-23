@@ -1,5 +1,5 @@
 # Stock Analysis
-Performing analysis on stocks using VBA in Excel.
+Module 2: Performing analysis on stocks using VBA in Excel.
 ## Overview of Project
 In this assignment we were given two data sets for stocks for 2017 and 2018. These data sets included dates, opening and closing prices, highest and lowest prices and volume amount for a give day for each respective stock. The purpose of the analysis was to see how the individual stocks performed in each year and whether they increased or dropped in value from the starting closing price to the ending closing price. Using VBA formatting, a visual result was given to see the percentage increase or decrease in valuation for these stocks. The total daily volume was also calculated to see how many shares of the respective stock was shared in a year.
 ## Results
